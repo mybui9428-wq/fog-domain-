@@ -1,0 +1,16 @@
+HUONG DAN TAO FILE JAR TREN GITHUB (DUNG DIEN THOAI)
+
+1. Mo https://github.com va dang nhap.
+2. Bam dau + > New repository.
+3. Dat ten fog-smoke-control, chon Public hoac Private, bam Create repository.
+4. Trong repository, chon Add file > Upload files.
+5. Giai nen ZIP nay tren dien thoai. Mo thu muc fog-smoke-control va tai LEN TOAN BO NOI DUNG BEN TRONG thu muc (bao gom .github, gradle, src, build.gradle, gradlew, gradle.properties, settings.gradle).
+   Luu y: phai bat hien tep an de thay thu muc .github.
+6. Bam Commit changes.
+7. Mo tab Actions. Workflow "Build Fog Smoke Control" se tu chay sau khi commit.
+8. Mo lan chay moi nhat. Neu hien dau xanh, keo xuong muc Artifacts va bam fog-smoke-control de tai ZIP.
+9. Giai nen ZIP Artifacts. Lay file fogsmoke-1.0.0.jar trong build/libs va chep vao thu muc mods cua profile NeoForge 26.2 trong Mojo Launcher.
+
+Neu Actions bao loi do Java/Gradle hoac compile, chup man hinh phan loi do gui lai de sua.
+
+GHI CHU: ZIP nay la MA NGUON, khong phai JAR. Workflow GitHub Actions da duoc dat san trong .github/workflows/build.yml. Khong the tao artifact tren tai khoan GitHub cua ban neu chua co quyen truy cap repository.
