@@ -1,1 +1,24 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
 
+[[mods]]
+modId="fogsmoke"
+version="1.0.0"
+displayName="Fog Smoke Control"
+authors=""
+description='''Standalone smoke and fog manipulation abilities for tubi2531.'''
+
+[[dependencies.fogsmoke]]
+modId="neoforge"
+type="required"
+versionRange="[26.2.0.93,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.fogsmoke]]
+modId="minecraft"
+type="required"
+versionRange="[26.2,26.3)"
+ordering="NONE"
+side="BOTH"
